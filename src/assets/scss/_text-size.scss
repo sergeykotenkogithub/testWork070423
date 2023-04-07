@@ -1,0 +1,66 @@
+// 12 | 16 | 18 | 22 | 26 | 28 | 36 | 62
+// xs | s  | m  | l  | 2l | 3l | xl | xxl
+
+.text-xs {
+	font-size: 12px;
+}
+
+.text-s {
+	font-size: 16px;
+	line-height: 120%;
+	@media screen and (max-width: $lg) {
+		font-size: 12px;
+	}
+}
+
+.text-m {
+	font-size: 18px;
+	line-height: 120%;
+	@media screen and (max-width: $lg) {
+		font-size: 14px;
+	}
+}
+
+.text-l {
+	font-size: 22px;
+	line-height: 120%;
+
+	@media screen and (max-width: $sm) {
+		font-size: 18px;
+	}
+}
+
+.text-2l {
+	font-size: 26px;
+	@media screen and (max-width: $lg) {
+		font-size: 24px;
+	}
+	@media screen and (max-width: $md) {
+		font-size: 18px;
+	}
+}
+
+.text-3l {
+	font-size: 28px;
+	@media screen and (max-width: $lg) {
+		font-size: 18px;
+	}
+}
+
+.text-xl {
+	font-size: 32px;
+}
+
+.text-2xl {
+	font-size: 36px;
+}
+
+.text-xxl {
+	font-size: 62px;
+	@media screen and (max-width: $lg) {
+		font-size: 42px;
+	}
+	@media screen and (max-width: $md) {
+		font-size: 32px;
+	}
+}

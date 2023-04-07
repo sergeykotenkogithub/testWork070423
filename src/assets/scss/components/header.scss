@@ -1,0 +1,6 @@
+.header {
+	height: 95px;
+	@media screen and (max-width: $lg) {
+		display: none;
+	}
+}

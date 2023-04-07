@@ -1,0 +1,31 @@
+.slider-navigation {
+    display: none;
+    gap: 16px;
+}
+
+@media screen and (max-width: 482px) {
+    .slider-navigation {
+        display: flex;
+    }
+}
+
+.slider-navigation__numbers {
+    display: flex;
+}
+
+.slider-navigation__svg {
+    fill: #2e9f9f;
+}
+
+.slider-navigation__svg-next {
+    transform: rotate(180deg);
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider-line {
+    flex-direction: row;
+    transition: all ease 1s;
+}

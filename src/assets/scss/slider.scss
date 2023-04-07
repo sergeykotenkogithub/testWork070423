@@ -1,0 +1,50 @@
+@import './variables';
+.slider-navigation {
+	display: none;
+	gap: 16px;
+
+	@media screen and (max-width: $sm) {
+		display: flex;
+	}
+
+	&__next {
+	}
+
+	&__numbers {
+		display: flex;
+	}
+	&__number {
+	}
+
+	&__prev {
+	}
+
+	&__svg {
+		fill: #2e9f9f;
+	}
+
+	&__svg-prev {
+	}
+	&__svg-next {
+		transform: rotate(180deg);
+	}
+}
+
+.slider {
+	overflow: hidden;
+}
+
+.slider-line {
+	flex-direction: row;
+	transition: all ease 1s;
+}
+
+// .content__block-wrapper {
+// 	display: flex;
+// 	flex-direction: row;
+// }
+
+// .slide {
+// 	flex-shrink: 0;
+// 	width: 100%;
+// }

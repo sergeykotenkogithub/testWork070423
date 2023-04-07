@@ -1,0 +1,13 @@
+.footer {
+	height: 153px;
+	@media screen and (max-width: $lg) {
+		display: none;
+	}
+	@media screen and (max-width: $sm) {
+		display: flex;
+		justify-content: center;
+		height: auto;
+		padding: 0 0 43px;
+		background: $background-second;
+	}
+}
